@@ -4,7 +4,7 @@ import './About.css'
 export default function About() {
   return (
     <div>
-        <div className='aboutdiv'>
+        <div id='about' className='aboutdiv'>
             <h1>About Us</h1>
             <p>Welcome to URL Shortening, the ultimate solution for shortening long and complex URLs into sleek, shareable links. Whether you're managing social media, tracking marketing campaigns, or just making links more user-friendly, our platform provides a fast, reliable, and secure way to generate short URLs.
             <br /><br />

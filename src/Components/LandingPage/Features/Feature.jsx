@@ -10,7 +10,7 @@ import reliableimg from '../../../Assets/Img/reliable.svg'
 export default function Feature() {
   return (
     <div>
-    <div className='fh1'>
+    <div id='feature' className='fh1'>
         <h1>Features</h1>
 
        <div className="mainparentdiv">

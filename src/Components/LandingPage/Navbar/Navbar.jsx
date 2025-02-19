@@ -35,9 +35,9 @@ export default function Navbar() {
 
         <div className={`nav-links ${isOpen ? 'open' : ''}`}>
           <ul className='uflex'>
-            <li><a href="/">Pricing</a></li>
-            <li><a href="/">About</a></li>
-            <li><a href="/">Features</a></li>
+            <li><a href="#plain">Pricing</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#feature">Features</a></li>
           </ul>
         </div>
 
