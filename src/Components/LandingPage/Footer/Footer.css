@@ -1,0 +1,38 @@
+
+
+.footermain{
+    background-color: black;
+    color: white;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    padding-block: 4rem;
+    padding-inline: 4rem;
+}
+
+.iconsmaindiv{
+    display: flex;
+    gap: 2rem;
+    padding-block: 2rem;
+}
+
+.iconsmaindiv img{
+    background: white;
+    border-radius: 100%;
+    padding: 1rem;
+    width: 40px;
+    cursor: pointer;
+}
+
+
+.footerlinks{
+    list-style: none !important;
+    color: white;
+}
+
+.footerlinks li a{
+    color: white;
+    font-size: 1.8rem;
+    line-height: 4rem;
+    text-decoration: none;
+}

@@ -1,0 +1,158 @@
+/* Login Main Div */
+.loginmaindiv {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 3rem;
+}
+
+.loginbgdiv{
+    width: 60%;
+}
+/* Left Side Background Image */
+.loginbgdiv img {
+    width: 85%;
+    object-fit: cover;
+    height: 100vh;
+    /* max-width: 500px; */
+}
+
+/* Login Content */
+.logincontentdiv {
+    text-align: center;
+    /* padding: 5rem; */
+}
+
+/* Headings */
+.logincontentdiv h1 {
+    font-size: 3rem;
+}
+
+.logincontentdiv p {
+    font-size: 1.6rem;
+    color: gray;
+    margin: 1rem 0;
+}
+
+/* Social Login Buttons */
+.flexbtndiv {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.googlebtnandspandiv {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid gray;
+    padding: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px;
+}
+
+.googlebtnandspandiv span {
+    font-size: 1.4rem;
+    color: gray;
+}
+
+/* Divider Line */
+.line {
+    padding: 2rem 0;
+}
+
+/* Inputs */
+.input-container input,
+.password-container input {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid gray;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+/* Password Input Container */
+.password-container {
+    position: relative;
+}
+
+.password-container input {
+    padding-right: 2.5rem; /* Space for the eye icon */
+}
+
+/* Eye Icon for Show/Hide Password */
+.eye-icon {
+    position: absolute;
+    right: 15px;
+    top: 60%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 1.4rem;
+    color: gray;
+}
+
+.eye-icon:hover {
+    color: black;
+}
+
+.checkboxandforgot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.loginmaindiv button{
+    width: 100%;
+    background-color: #1877F2;
+    padding: 1rem;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.accoutlinediv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accoutlinediv span{
+    font-size: 1.4rem;
+    color: #1877F2;
+    cursor: pointer;
+}
+
+.checkboxandforgot span{
+    font-size: 1.4rem;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .loginmaindiv {
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .logincontentdiv {
+        padding: 2rem;
+    }
+
+    .googlebtnandspandiv {
+        max-width: 100%;
+    }
+
+    .loginbgdiv{
+        display: none;
+    }
+
+    .logincontentdiv p{
+        font-size: 12px;
+    }
+}

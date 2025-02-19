@@ -1,0 +1,83 @@
+
+
+.pheading h1{
+    text-align: center;
+    font-size: 4rem;
+    color: gray;
+    padding-block: 4rem;
+}
+
+.plaindiv{
+    border: 1px solid gray;
+    border-radius: 2em;
+    padding: 2rem;
+    flex: 1;
+}
+
+.plaindiv h2{
+    font-size: 3rem;
+    color: black;
+    padding-bottom: 1rem;
+}
+
+.plaindiv h3 , h4 {
+    font-size: 2rem;
+    color: gray;
+}
+
+.plaindiv h5{
+    padding-block: 1rem;
+    font-size: 1.8rem;
+    color: rgb(83, 82, 82);
+}
+
+.mainplain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6rem;
+    padding-inline: 4rem;
+    padding-block: 4rem;
+}
+
+
+.plaindiv ul {
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+  }
+  
+  .plaindiv ul li {
+    position: relative;
+    padding-left: 25px; /* Space for the tick */
+    font-size: 16px;
+    padding-block: 1rem;
+    color: rgb(83, 82, 82);
+  }
+  
+  .plaindiv ul li::before {
+    content: "✔"; /* Unicode tick */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(83, 82, 82);
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+
+  .plaindiv button{
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 0.8rem;
+    width: 100%;
+    margin-top: 2rem;
+    padding-block: 1rem;
+    cursor: pointer;
+  }
+
+  .plaindiv button:hover{
+    background-color: black;
+    color: white;
+
+  }

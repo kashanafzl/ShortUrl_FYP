@@ -1,0 +1,42 @@
+
+
+.bgdiv{
+    background-image: url('../../../Assets/Img/bg.png');
+    height: 80vh;
+    width: 100%;
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+    background-size: cover;
+}
+
+
+.contentdiv{
+    text-align: center;
+}
+
+.contentdiv h1{
+    font-size: 4rem;
+    color: black;
+    padding-top: 10rem;
+}
+
+.contentdiv h2{
+    color: gray;
+    font-size: 4rem;
+    padding-block: 1rem;
+}
+
+.contentdiv p{
+    font-size: 1.8rem;
+    padding-block: 1rem;
+}
+
+.contentdiv button{
+    padding: 1rem 2rem;
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+    cursor: pointer;
+    color: white;
+    border-radius: 0.8rem;
+}

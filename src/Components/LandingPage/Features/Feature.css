@@ -1,0 +1,40 @@
+
+
+.mainparentdiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-inline: 4rem;
+    gap: 4rem;
+    padding-block: 2rem;
+}
+
+.featurediv{
+    border: 1px solid gray;
+    border-radius: 4rem;
+    padding: 2rem;
+    text-align: center;
+    flex: 1;
+}
+
+
+.featurediv svg{
+    width: 50px;
+}
+
+.featurediv h2{
+    font-size: 2rem;
+    padding-block: 1rem;
+}
+
+.featurediv p{
+    font-size: 1.6rem;
+    color: gray;
+}
+
+.fh1 h1{
+    text-align: center;
+    font-size: 4rem;
+    padding-block: 4rem;
+    color: gray;
+}

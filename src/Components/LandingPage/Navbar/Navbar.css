@@ -1,0 +1,92 @@
+/* Base Navbar */
+.navbarparentdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 4rem;
+    padding-block: 2rem;
+    position: relative;
+}
+
+/* Navigation Links */
+.uflex {
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+}
+
+.uflex li a {
+    color: gray;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+.uflex li a:hover {
+    color: blue;
+}
+
+/* Buttons */
+.navbarparentdiv button {
+    padding: 0.6rem 2rem;
+    margin-left: 1rem;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.navbarparentdiv button:hover {
+    background-color: blue;
+    color: black;
+}
+
+/* Hamburger Menu */
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .hamburger {
+        display: block;
+    }
+
+    .nav-links, .nav-buttons {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 50vh;
+        background: white;
+        color: black;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        transform: translateY(-100%);
+        transition: transform 0.3s ease-in-out;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .nav-links.open, .nav-buttons.open {
+        transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .uflex {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .nav-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
