@@ -1,7 +1,21 @@
 import React from 'react'
 import './Mainsection.css'
 
+// pastetheurl
+
+import { useNavigate } from "react-router-dom";
+
 export default function Mainsection() {
+
+
+      
+         const navigate = useNavigate();
+          
+            const handlepastetheurl = () => {
+              navigate("/pastetheurl"); 
+            };
+  
+
   return (
     <div>
         <div className="bgdiv">
@@ -11,7 +25,7 @@ export default function Mainsection() {
             <h2>And Effective</h2>
             <p>When shortening URLs, consider these <br />
              key tips for a better user experience</p>
-            <button>Get Started</button>
+            <button onClick={handlepastetheurl}>Get Started</button>
           </div>
 
         </div>

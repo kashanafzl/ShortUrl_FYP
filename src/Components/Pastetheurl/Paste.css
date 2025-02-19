@@ -1,0 +1,10 @@
+
+
+.contentdiv input{
+    padding: 1rem;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+    width: 25%;
+    margin-block: 2rem;
+}
